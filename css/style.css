@@ -16,6 +16,9 @@ nav {
 .text_center {
   text-align: center;
 }
+.margin_bottom_40 {
+  margin-bottom: 40px;
+}
 /* jumbotron */
 #jumbo {
   position: relative;
@@ -41,15 +44,18 @@ nav {
 /* about */
 #about {
   width: 100%;
-  height: 500px;
+  /* height: 500px; */
   background-color: green;
 }
 .about_star {
   width: 60%;
+  margin: 0 auto;
   height: 200px;
   background-color: purple;
 }
-
+.box {
+  height: 200px;
+}
 
 
 
