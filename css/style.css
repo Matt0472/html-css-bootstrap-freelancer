@@ -1,0 +1,54 @@
+/* general */
+nav {
+  background-color: red;
+  line-height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+}
+[class*='col-'] {
+  border: 2px solid yellow;
+  background-color: lightblue;
+}
+/* utility */
+.text_center {
+  text-align: center;
+}
+/* jumbotron */
+#jumbo {
+  position: relative;
+  height: 500px;
+  background-color: green;
+  margin-top: 50px;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 350px;
+  width: 450px;
+  background-color: purple;
+}
+
+.main_box {
+  height: 250px;
+}
+
+
+
+
+
+
+
+
+/* media query */
+@media screen and (max-width:768px) {
+  .jumbotron {
+    height: 300px;
+    width: 70%;
+  }
+}
