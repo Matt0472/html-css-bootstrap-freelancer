@@ -10,7 +10,6 @@ nav {
 }
 [class*='col-'] {
   border: 2px solid yellow;
-  /* background-color: lightblue; */
 }
 /* utility */
 .text_center {
@@ -39,6 +38,7 @@ nav {
 /* main content */
 .main_box {
   height: 250px;
+  background-color: lightblue;
 }
 
 /* about */
@@ -46,11 +46,11 @@ nav {
   width: 100%;
   background-color: green;
 }
-.about_star {
+.freelance {
   width: 60%;
   margin: 0 auto;
 }
-.box {
+.about_box {
   height: 300px;
 }
 
