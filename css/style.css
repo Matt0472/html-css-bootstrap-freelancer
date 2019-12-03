@@ -10,7 +10,7 @@ nav {
 }
 [class*='col-'] {
   border: 2px solid yellow;
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 /* utility */
 .text_center {
@@ -23,7 +23,6 @@ nav {
   background-color: green;
   margin-top: 50px;
 }
-
 .jumbotron {
   position: absolute;
   top: 50%;
@@ -34,13 +33,26 @@ nav {
   background-color: purple;
 }
 
+/* main content */
 .main_box {
   height: 250px;
 }
 
-
-
-
+/* about */
+#about {
+  position: relative;
+  height: 500px;
+  background-color: green;
+}
+.about_star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 350px;
+  width: 450px;
+  background-color: purple;
+}
 
 
 
