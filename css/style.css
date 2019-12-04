@@ -1,5 +1,6 @@
 body {
-
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
 }
 
 .padding_top_80 {
@@ -14,26 +15,45 @@ body {
   margin: 0 auto;
 }
 .bg_green {
-  background-color: lightgreen;
+  background-color: rgb(26, 188, 156);
 }
 .btn_green {
-  background-color: #158F77;
+  background-color: rgb(26, 188, 156);
   color: white;
   text-transform: uppercase;
 }
 .btn_green .glyphicon{
   vertical-align: text-top;
 }
-
+a.no_deco {
+  text-decoration: none;
+}
 /* header */
 .header_top {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
-  background: blue;
-  line-height: 80px;
+  height: 100px;
+  background-color: rgb(44, 62, 80);
+  line-height: 100px;
+}
+.txt_white {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  display: inline;
+}
+.visible-lg {
+  list-style: none;
+}
+.visible-lg li {
+  display: inline;
+  margin: 0 15px;
+}
+.visible-lg li a {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 1.1em;
 }
 
 /* Jumbo */
