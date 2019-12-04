@@ -1,65 +1,78 @@
-/* general */
-nav {
-  background-color: red;
-  line-height: 50px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 3;
-  width: 100%;
-}
-[class*='col-'] {
-  border: 2px solid yellow;
-}
-/* utility */
-.text_center {
-  text-align: center;
-}
-.margin_bottom_40 {
-  margin-bottom: 40px;
-}
-/* jumbotron */
-#jumbo {
-  position: relative;
-  height: 500px;
-  background-color: green;
-  margin-top: 50px;
-}
-.jumbotron {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 350px;
-  width: 450px;
-  background-color: purple;
+body {
+
 }
 
-/* main content */
-.main_box {
-  height: 250px;
-  background-color: lightblue;
+.padding_top_80 {
+  padding-top: 80px;
+}
+.padding_bottom_80 {
+  padding-bottom: 80px;
 }
 
-/* about */
-#about {
-  width: 100%;
-  background-color: green;
-}
-.freelance {
+.wrapper_60 {
   width: 60%;
   margin: 0 auto;
 }
-.about_box {
+.bg_green {
+  background-color: lightgreen;
+}
+.btn_green {
+  background-color: #158F77;
+  color: white;
+  text-transform: uppercase;
+}
+.btn_green .glyphicon{
+  vertical-align: text-top;
+}
+
+/* header */
+.header_top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: blue;
+  line-height: 80px;
+}
+
+/* Jumbo */
+.jumbo {
+  margin-top: 80px;
+  padding: 80px 0;
+}
+.jumbo_text {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Portfolio */
+.box_portfolio {
+  width: 100%;
   height: 300px;
+  margin-bottom: 30px;
+  background-color: blue;
+}
+
+/* Footer */
+.footer_top {
+  background-color: blue;
+}
+.footer_bottom {
+  padding: 20px 0;
+  background-color: darkblue;
 }
 
 
-
-/* media query */
-@media screen and (max-width:768px) {
-  .jumbotron {
-    height: 300px;
-    width: 70%;
+@media screen and (max-width: 768px) {
+  .wrapper_xs_100 {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wrapper_md_60 {
+    width: 60%;
+    margin: 0 auto;
   }
 }
