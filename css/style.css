@@ -1,6 +1,7 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  min-width: 350px;
 }
 
 .padding_top_80 {
@@ -194,7 +195,7 @@ span i {
   margin-top: 20px;
   margin-right: 5px;
   border: 2px solid rgb(255, 255, 255);
-  border-radius: 100%;
+  border-radius: 50%;
   color: rgb(255, 255, 255);
   font-size: 0.9em;
 }
